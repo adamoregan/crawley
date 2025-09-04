@@ -1,10 +1,8 @@
 # Crawley
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
-***
 
 Crawley is an asynchronous **web crawling** and **web request** Python library.
 ## Table of Contents
-***
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,7 +10,6 @@ Crawley is an asynchronous **web crawling** and **web request** Python library.
 - [Contact Me](#contact-me)
 
 ## Features
-***
 - Supports retrieving/crawling dynamic webpages with **[Playwright](https://playwright.dev/python/) browser automation**.
 - Supports *optional* **polite web crawling** by following robots.txt instructions.
 - Supports **crawling sitemaps** to retrieve urls. Caches sitemaps to prevent redundant requests.
@@ -24,7 +21,6 @@ Crawley is an asynchronous **web crawling** and **web request** Python library.
 - Significant test coverage.
 
 ## Installation
-***
 1. Clone the repository.
 ````commandline
 git clone https://github.com/adamoregan/crawley.git
@@ -36,7 +32,6 @@ pip install -r requirements.txt
 ````
 
 ## Usage
-***
 ````python
 import asyncio
 from crawley.crawling import Crawler
@@ -72,7 +67,6 @@ asyncio.run(main())
 `.crawl` now automates a Chrome browser to render dynamic webpages. This allows it to find more urls.
 
 ## Code Coverage
-***
 ````commandline
 cd crawley
 coverage run -m unittest 
@@ -82,7 +76,6 @@ Runs all the unit tests in the library and generates a report. Run `coverage rep
 HTML file.
 
 ## Contact Me
-***
 - Adam O'Regan 
   - Github: [adamoregan](https://github.com/adamoregan)  
   - Email: [adamoregan457@gmail.com](mailto:adamoregan457@gmail.com)
